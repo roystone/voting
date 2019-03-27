@@ -8,7 +8,7 @@ for each post it will save their id along with it.
 Code inside shortcode below
 Class infact pulling up the style also firing the script.
 ID here actually getting the vote to save in database.
-<html><div class="vot_updown1" id="vt_voting_'.esc_attr(get_the_ID()).'"></div></html>
+<code><div class="vot_updown1" id="vt_voting_'.esc_attr(get_the_ID()).'"></div></code>
 
 for better user experience, i have created shortcode to paste it in each post 
 
